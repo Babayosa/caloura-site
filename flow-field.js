@@ -19,7 +19,7 @@
     noiseScale: 0.003,
     speed: 0.5,
     fadeAlpha: 0.03,
-    particleAlpha: 0.4,
+    particleAlpha: 0.25,
     trailLength: 8
   };
 

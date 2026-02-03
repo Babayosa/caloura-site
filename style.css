@@ -162,6 +162,7 @@ body {
   line-height: 1.1;
   margin-bottom: 20px;
   text-transform: uppercase;
+  text-shadow: 0 2px 20px rgba(0, 0, 0, 0.8);
 }
 
 .hero-subtitle {
@@ -170,6 +171,7 @@ body {
   max-width: 520px;
   margin: 0 auto 32px;
   line-height: 1.7;
+  text-shadow: 0 2px 15px rgba(0, 0, 0, 0.9);
 }
 
 .hero-actions {
@@ -394,6 +396,16 @@ body {
 
 .step p {
   font-size: 13px;
+  color: var(--color-muted);
+}
+
+.steps-punchline {
+  margin-top: 48px;
+  font-size: clamp(24px, 4vw, 32px);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  text-align: center;
   color: var(--color-muted);
 }
 
