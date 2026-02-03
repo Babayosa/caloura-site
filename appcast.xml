@@ -6,6 +6,27 @@
     <description>Caloura app updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.2</title>
+      <pubDate>Mon, 03 Feb 2026 10:35:00 -0500</pubDate>
+      <sparkle:version>3</sparkle:version>
+      <sparkle:shortVersionString>1.0.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Bug Fixes</h2>
+        <ul>
+          <li>Fixed permission detection on macOS Sequoia when CGPreflight is unreliable</li>
+          <li>Added screencapture CLI fallback test for permission verification</li>
+          <li>Added "Continue Anyway" option if permission detection gets stuck</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://caloura.app/releases/Caloura-1.0.2.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="ExtZzXDuOrGotCXxqMx/5gUSjLSbdxlbo2TPkzFz5jpDyrHF9JvmfO1U5L5w2Hk1Ad5mR3u6P/Wzsok5gIjKAQ=="
+        length="3464697"
+      />
+    </item>
+    <item>
       <title>Version 1.0.1</title>
       <pubDate>Mon, 03 Feb 2026 10:20:00 -0500</pubDate>
       <sparkle:version>2</sparkle:version>
