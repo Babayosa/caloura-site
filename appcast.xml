@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Caloura Updates</title>
+    <link>https://caloura.app/appcast.xml</link>
+    <description>Caloura app updates</description>
+    <language>en</language>
+    <item>
+      <title>Version 1.0.0</title>
+      <pubDate>Sun, 02 Feb 2026 18:22:00 -0500</pubDate>
+      <sparkle:version>1</sparkle:version>
+      <sparkle:shortVersionString>1.0.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Initial Release</h2>
+        <ul>
+          <li>Area, window, and fullscreen capture</li>
+          <li>Smart crop with Vision saliency detection</li>
+          <li>OCR text extraction (searchable history)</li>
+          <li>Annotation tools (arrows, rectangles, highlights)</li>
+          <li>Pin screenshots as floating overlays</li>
+          <li>Markdown and citation clipboard formats</li>
+          <li>Customizable hotkeys</li>
+          <li>4 built-in presets for common workflows</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://caloura.app/releases/Caloura-1.0.0.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="xkbA9S+YyueWF174cSoCDju1GSC0gInIC3qjb9KAhrGOlJTd9VO4X+lM5/uKx/39JSF9FW9oTswOmDEn2cB1Bw=="
+        length="3474936"
+      />
+    </item>
+  </channel>
+</rss>
