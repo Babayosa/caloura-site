@@ -6,6 +6,27 @@
     <description>Caloura app updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.1</title>
+      <pubDate>Mon, 03 Feb 2026 10:20:00 -0500</pubDate>
+      <sparkle:version>2</sparkle:version>
+      <sparkle:shortVersionString>1.0.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Bug Fixes</h2>
+        <ul>
+          <li>Fixed permission prompt spam during onboarding on macOS Sequoia</li>
+          <li>Improved permission detection to avoid triggering repeated system dialogs</li>
+          <li>Added "Quit Caloura" button when app restart is needed after granting permission</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://caloura.app/releases/Caloura-1.0.1.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="x4g0t42PMgQVaMXGsIIltNMU7QuEystXjjzQm1XWbND7a4D8ZLFjHohqgGPyjAo7nZQVpWEMeO/Uy9gLfdwIBg=="
+        length="3456517"
+      />
+    </item>
+    <item>
       <title>Version 1.0.0</title>
       <pubDate>Sun, 02 Feb 2026 18:22:00 -0500</pubDate>
       <sparkle:version>1</sparkle:version>
