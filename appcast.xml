@@ -6,6 +6,29 @@
     <description>Caloura app updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.3</title>
+      <pubDate>Mon, 03 Feb 2026 11:30:00 -0500</pubDate>
+      <sparkle:version>4</sparkle:version>
+      <sparkle:shortVersionString>1.0.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>Improvements</h2>
+        <ul>
+          <li>Improved onboarding animation - slides in correct direction</li>
+          <li>Window capture: single-click selection (no more double-click)</li>
+          <li>Window capture: Tab to cycle through overlapping windows</li>
+          <li>Window capture: Escape key now works reliably</li>
+          <li>Window capture: attempts to bring highlighted window to front</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://caloura.app/releases/Caloura-1.0.3.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="QBlCbChuQG396WtctAmIe+IidKQG8QTuwDuz+rNq0AZQBbBs4ejwOxjsOBoIZJP40bbVUGRJiZP9FxqrX6H6Cw=="
+        length="3474688"
+      />
+    </item>
+    <item>
       <title>Version 1.0.2</title>
       <pubDate>Mon, 03 Feb 2026 10:35:00 -0500</pubDate>
       <sparkle:version>3</sparkle:version>
