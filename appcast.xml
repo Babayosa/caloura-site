@@ -7,6 +7,27 @@
     <language>en</language>
     <item>
       <title>Version 1.0.6</title>
+      <pubDate>Wed, 04 Feb 2026 14:39:50 -0500</pubDate>
+      <sparkle:version>8</sparkle:version>
+      <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Onboarding permission step now uses a single primary grant path for less confusion</li>
+          <li>Added automatic permission re-check progress indicator right after grant action</li>
+          <li>Improved onboarding status messaging for clearer permission state feedback</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://caloura.app/releases/Caloura-1.0.6.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="JYcIwOTkxe5EAEkmwOV7QGwYzY9AJYtojyf7YwR9fOscQL1wzrQuV/GGHPLkLVf8m/w/4Y5wq0QmKvtumj5hAA=="
+        length="3709203"
+      />
+    </item>
+    <item>
+      <title>Version 1.0.6</title>
       <pubDate>Wed, 04 Feb 2026 14:11:00 -0500</pubDate>
       <sparkle:version>7</sparkle:version>
       <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
