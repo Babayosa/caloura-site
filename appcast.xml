@@ -6,6 +6,27 @@
     <description>Caloura app updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.6</title>
+      <pubDate>Wed, 04 Feb 2026 14:11:00 -0500</pubDate>
+      <sparkle:version>7</sparkle:version>
+      <sparkle:shortVersionString>1.0.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Permission flow hardened to prevent repeated Screen Recording prompt loops</li>
+          <li>Improved behavior when switching between Xcode and public builds</li>
+          <li>Capture-entry and onboarding permission diagnostics improved</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://caloura.app/releases/Caloura-1.0.6.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="qbFJ2+l+U9GtEIZ6R2JwuE/FQehi+/79ontCll1B1cuMBUTLTXIMUncHXcyt8zX8EHe1i2LfWno5VBbtHgvzDg=="
+        length="3647954"
+      />
+    </item>
+    <item>
       <title>Version 1.0.5</title>
       <pubDate>Tue, 03 Feb 2026 21:59:28 -0500</pubDate>
       <sparkle:version>6</sparkle:version>
