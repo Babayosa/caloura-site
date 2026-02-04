@@ -6,6 +6,27 @@
     <description>Caloura app updates</description>
     <language>en</language>
     <item>
+      <title>Version 1.0.5</title>
+      <pubDate>Tue, 03 Feb 2026 21:59:28 -0500</pubDate>
+      <sparkle:version>6</sparkle:version>
+      <sparkle:shortVersionString>1.0.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>Encrypted screenshot history at rest</li>
+          <li>License keys stored in Keychain</li>
+          <li>Clipboard image encoding moved off the main thread</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://caloura.app/releases/Caloura-1.0.5.zip"
+        type="application/octet-stream"
+        sparkle:edSignature="Cp6cwHQanLXqItBbEmf+oUQsEPrY/2i9H/ng+FdTMBDPwdwp4pfaH8glhKScmSySHJpyjqnuCVMDm1FSTHpUDQ=="
+        length="3635216"
+      />
+    </item>
+    <item>
       <title>Version 1.0.4</title>
       <pubDate>Mon, 03 Feb 2026 15:21:00 -0500</pubDate>
       <sparkle:version>5</sparkle:version>
