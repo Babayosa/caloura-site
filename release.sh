@@ -12,11 +12,11 @@ fi
 ZIP_PATH="$1"
 ZIP_NAME=$(basename "$ZIP_PATH")
 
-# Extract version from filename (e.g., Caloura-1.0.1.zip -> 1.0.1)
-VERSION=$(echo "$ZIP_NAME" | sed -E 's/Caloura-([0-9]+\.[0-9]+\.[0-9]+)\.zip/\1/')
+# Extract version from filename (e.g., Caloura-1.0.1.zip -> 1.0.1, Caloura-1.1.zip -> 1.1)
+VERSION=$(echo "$ZIP_NAME" | sed -E 's/Caloura-([0-9]+(\.[0-9]+)+)\.zip/\1/')
 
-if [ -z "$VERSION" ]; then
-    echo "Error: Could not extract version from filename. Expected format: Caloura-X.Y.Z.zip"
+if [ -z "$VERSION" ] || [ "$VERSION" = "$ZIP_NAME" ]; then
+    echo "Error: Could not extract version from filename. Expected format: Caloura-X.Y.Z.zip or Caloura-X.Y.zip"
     exit 1
 fi
 
@@ -101,7 +101,7 @@ rm -f "$TMPITEM"
 
 echo "Updating index.html download link..."
 # Update download link to new version
-sed -i '' "s|releases/Caloura-[0-9]*\.[0-9]*\.[0-9]*\.zip|releases/$ZIP_NAME|g" index.html
+sed -i '' "s|releases/Caloura-[0-9][0-9.]*\.zip|releases/$ZIP_NAME|g" index.html
 
 echo "Committing and pushing..."
 git add releases/"$ZIP_NAME" appcast.xml index.html
