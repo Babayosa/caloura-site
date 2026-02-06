@@ -71,8 +71,10 @@ PUBDATE=$(date -R)
 echo "Build number: $NEW_BUILD"
 echo "Updating appcast.xml..."
 
-# Create new item entry
-NEW_ITEM="    <item>
+# Write new item to temp file, then insert after <language>en</language>
+TMPITEM=$(mktemp)
+cat > "$TMPITEM" <<XMLEOF
+    <item>
       <title>Version $VERSION</title>
       <pubDate>$PUBDATE</pubDate>
       <sparkle:version>$NEW_BUILD</sparkle:version>
@@ -85,17 +87,17 @@ NEW_ITEM="    <item>
         </ul>
       ]]></description>
       <enclosure
-        url=\"https://caloura.app/releases/$ZIP_NAME\"
-        type=\"application/octet-stream\"
-        sparkle:edSignature=\"$SIGNATURE\"
-        length=\"$LENGTH\"
+        url="https://caloura.app/releases/$ZIP_NAME"
+        type="application/octet-stream"
+        sparkle:edSignature="$SIGNATURE"
+        length="$LENGTH"
       />
-    </item>"
+    </item>
+XMLEOF
 
-# Insert new item after <language>en</language>
-sed -i '' "/<language>en<\/language>/a\\
-$NEW_ITEM
-" appcast.xml
+# Use sed 'r' to read from file (avoids escaping issues with multi-line content)
+sed -i '' "/<language>en<\/language>/r $TMPITEM" appcast.xml
+rm -f "$TMPITEM"
 
 echo "Updating index.html download link..."
 # Update download link to new version
@@ -103,9 +105,7 @@ sed -i '' "s|releases/Caloura-[0-9]*\.[0-9]*\.[0-9]*\.zip|releases/$ZIP_NAME|g" 
 
 echo "Committing and pushing..."
 git add releases/"$ZIP_NAME" appcast.xml index.html
-git commit -m "Release v$VERSION
-
-Co-Authored-By: Claude Opus 4.5 <noreply@anthropic.com>"
+git commit -m "Release v$VERSION"
 git push
 
 echo ""
