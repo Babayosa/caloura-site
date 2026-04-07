@@ -8,7 +8,7 @@
     <item>
       <title>Version 2.3.0</title>
       <pubDate>Tue, 07 Apr 2026 17:40:17 -0400</pubDate>
-      <sparkle:version>2.3.0</sparkle:version>
+      <sparkle:version>20260407214000</sparkle:version>
       <sparkle:shortVersionString>2.3.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
@@ -20,7 +20,7 @@
       <enclosure
         url="https://caloura.app/releases/Caloura-2.3.0.zip"
         type="application/octet-stream"
-        sparkle:version="2.3.0"
+        sparkle:version="20260407214000"
         sparkle:shortVersionString="2.3.0"
         sparkle:minimumSystemVersion="26.0"
         sparkle:edSignature="UwcYCvtELBA+mi7HHUxypUPDM6DeTtaNXHiLLSGJ52Ax9siJQemtYHyfqWeEBSBPNTtyemm4BLE+zn+qqZ3pDQ=="
