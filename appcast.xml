@@ -7,8 +7,8 @@
     <language>en</language>
     <item>
       <title>Version 2.4.0</title>
-      <pubDate>Fri, 17 Apr 2026 17:44:47 -0400</pubDate>
-      <sparkle:version>20260417174300</sparkle:version>
+      <pubDate>Fri, 17 Apr 2026 17:47:50 -0400</pubDate>
+      <sparkle:version>20260417174622</sparkle:version>
       <sparkle:shortVersionString>2.4.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
@@ -18,13 +18,13 @@
         </ul>
       ]]></description>
       <enclosure
-        url="https://caloura.app/releases/Caloura-2.4.0-20260417174300.zip"
+        url="https://caloura.app/releases/Caloura-2.4.0-20260417174622.zip"
         type="application/octet-stream"
-        sparkle:version="20260417174300"
+        sparkle:version="20260417174622"
         sparkle:shortVersionString="2.4.0"
         sparkle:minimumSystemVersion="26.0"
-        sparkle:edSignature="YO7MsNW/SFVszW1109QH346XBSjr+syiwUDpcubP4iHSY1tb7Lp3mvyQhpfqr2hjl47ASRrnurmebt7YELSODw=="
-        length="4621656"
+        sparkle:edSignature="Yp09CAv69AqQRo9q5ixVGLHKuzfZpDIS+dgyKQ4BkzOQ+O0TPcHWHmU2BA5L121zDkZpZGDC8yveE4yyNEV/BQ=="
+        length="4621678"
       />
     </item>
     <item>
