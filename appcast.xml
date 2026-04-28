@@ -6,12 +6,33 @@
     <description>Caloura app updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.5.0</title>
+      <pubDate>Tue, 28 Apr 2026 17:15:38 -0400</pubDate>
+      <sparkle:version>200050000000000</sparkle:version>
+      <sparkle:shortVersionString>2.5.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>See release notes</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://caloura.app/releases/Caloura-2.5.0.zip"
+        type="application/octet-stream"
+        sparkle:version="200050000000000"
+        sparkle:shortVersionString="2.5.0"
+        sparkle:minimumSystemVersion="26.0"
+        sparkle:edSignature="yrt1PGfApJUxcimYT8vNzjA4SC1mH2cjFYMgH+gY667b//EhP5kfYyguiXVN7cD3Lyn4KhyH9c8Q8n1NA+MpBA=="
+        length="4721312"
+      />
+    </item>
+    <item>
       <title>Version 2.4.9</title>
       <pubDate>Tue, 28 Apr 2026 15:20:20 -0400</pubDate>
       <sparkle:version>200040009000000</sparkle:version>
       <sparkle:shortVersionString>2.4.9</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <sparkle:minimumAutoupdateVersion>200040008000000</sparkle:minimumAutoupdateVersion>
       <description><![CDATA[
         <h2>What's New</h2>
         <ul>
@@ -34,7 +55,6 @@
       <sparkle:version>200040008000000</sparkle:version>
       <sparkle:shortVersionString>2.4.8</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <sparkle:minimumAutoupdateVersion>200040007000000</sparkle:minimumAutoupdateVersion>
       <description><![CDATA[
         <h2>What's New</h2>
         <ul>
@@ -57,7 +77,6 @@
       <sparkle:version>200040007000000</sparkle:version>
       <sparkle:shortVersionString>2.4.7</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <sparkle:minimumAutoupdateVersion>200040006000000</sparkle:minimumAutoupdateVersion>
       <description><![CDATA[
         <h2>What's New</h2>
         <ul>
@@ -80,7 +99,6 @@
       <sparkle:version>200040006000000</sparkle:version>
       <sparkle:shortVersionString>2.4.6</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <sparkle:minimumAutoupdateVersion>200040005000000</sparkle:minimumAutoupdateVersion>
       <description><![CDATA[
         <h2>What's New</h2>
         <ul>
@@ -103,7 +121,6 @@
       <sparkle:version>200040005000000</sparkle:version>
       <sparkle:shortVersionString>2.4.5</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <sparkle:minimumAutoupdateVersion>200040004000000</sparkle:minimumAutoupdateVersion>
       <description><![CDATA[
         <h2>What's New</h2>
         <ul>
@@ -126,7 +143,6 @@
       <sparkle:version>200040004000000</sparkle:version>
       <sparkle:shortVersionString>2.4.4</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <sparkle:minimumAutoupdateVersion>200040003000000</sparkle:minimumAutoupdateVersion>
       <description><![CDATA[
         <h2>What's New</h2>
         <ul>
@@ -149,7 +165,6 @@
       <sparkle:version>200040003000000</sparkle:version>
       <sparkle:shortVersionString>2.4.3</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <sparkle:minimumAutoupdateVersion>200040002000000</sparkle:minimumAutoupdateVersion>
       <description><![CDATA[
         <h2>What's New</h2>
         <ul>
@@ -172,7 +187,6 @@
       <sparkle:version>200040002000000</sparkle:version>
       <sparkle:shortVersionString>2.4.2</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <sparkle:minimumAutoupdateVersion>20260422151733</sparkle:minimumAutoupdateVersion>
       <description><![CDATA[
         <h2>What's New</h2>
         <ul>
@@ -195,7 +209,6 @@
       <sparkle:version>20260422151733</sparkle:version>
       <sparkle:shortVersionString>2.4.1</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
-      <sparkle:minimumAutoupdateVersion>20260417174622</sparkle:minimumAutoupdateVersion>
       <description><![CDATA[
         <h2>What's New</h2>
         <ul>
