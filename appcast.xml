@@ -6,6 +6,29 @@
     <description>Caloura app updates</description>
     <language>en</language>
     <item>
+      <title>Version 2.4.9</title>
+      <pubDate>Tue, 28 Apr 2026 15:20:20 -0400</pubDate>
+      <sparkle:version>200040009000000</sparkle:version>
+      <sparkle:shortVersionString>2.4.9</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
+      <sparkle:minimumAutoupdateVersion>200040008000000</sparkle:minimumAutoupdateVersion>
+      <description><![CDATA[
+        <h2>What's New</h2>
+        <ul>
+          <li>See release notes</li>
+        </ul>
+      ]]></description>
+      <enclosure
+        url="https://caloura.app/releases/Caloura-2.4.9.zip"
+        type="application/octet-stream"
+        sparkle:version="200040009000000"
+        sparkle:shortVersionString="2.4.9"
+        sparkle:minimumSystemVersion="26.0"
+        sparkle:edSignature="Ynuxw+WICYQ9NegKp2YcwV2wf7bp3rhZV/lB+y9b80QixPFSgU5veQn3tyiEsf+okcOG6w46bTF9A7jY6i30BQ=="
+        length="4715820"
+      />
+    </item>
+    <item>
       <title>Version 2.4.8</title>
       <pubDate>Tue, 28 Apr 2026 09:40:21 -0400</pubDate>
       <sparkle:version>200040008000000</sparkle:version>
