@@ -12,9 +12,24 @@
       <sparkle:shortVersionString>2.6.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>26.0</sparkle:minimumSystemVersion>
       <description><![CDATA[
-        <h2>What's New</h2>
+        <h2>What's New in 2.6.0</h2>
+        <h3>Privacy &amp; Stealth</h3>
         <ul>
-          <li>See release notes</li>
+          <li>Caloura windows no longer appear in screen recordings or shares (Zoom, Teams, OBS) — overlays, countdown, pinned screenshots, history, and editors are all excluded</li>
+          <li>Screenshots can no longer include Caloura's own interface</li>
+        </ul>
+        <h3>Reliability</h3>
+        <ul>
+          <li>Screen Recording permission handling rebuilt from the ground up — more accurate detection, smarter recovery, fewer false alarms</li>
+          <li>Fixed captures getting stuck after a failed or cancelled capture</li>
+          <li>Preset save errors are now shown instead of silently ignored</li>
+          <li>Fixed a rare crash in sensitive-data detection</li>
+        </ul>
+        <h3>Performance &amp; Polish</h3>
+        <ul>
+          <li>Faster history search and smoother captures with large histories</li>
+          <li>Caloura windows no longer steal focus from the app you're working in</li>
+          <li>Clearer, friendlier error messages</li>
         </ul>
       ]]></description>
       <enclosure
